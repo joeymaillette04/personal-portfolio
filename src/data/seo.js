@@ -1,38 +1,38 @@
 const SEO = [
-	{
-		page: "home",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
+    {
+        page: "home",
+        description: 
+            "Specializing in mechatronics and software engineering with a focus on machine learning and data analysis. Explore my diverse portfolio of projects and academic pursuits.",
+        keywords: ["Mechatronics", "Mechatronics Engineering", "Software Engineering", "Machine Learning", "Data Analysis", "University of Waterloo", "Joey Maillette", "joeymaillette.com"],
+    },
+
+    {
+        page: "about",
+        description: 
+            "Discover my journey from a tech-savvy hometown to studying mechatronics at the University of Waterloo. Learn about my hands-on experience in software engineering, machine learning, and data analysis.",
+        keywords: ["About Me", "Mechatronics Engineering", "Software Engineering", "Waterloo", "Joey Maillette", "joeymaillette.com"],
+    },
 
 	{
-		page: "about",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
+		page: "blog",
+		description: 
+			"This space is dedicated to providing you with a behind-the-scenes look at my professional journey. Updated weekly, you can expect insights into the projects I'm tackling, the challenges I'm facing, and the milestones I'm achieving.",
+		keywords: ["Joey Maillette Blog", "Mechatronics Engineering", "Software Development Insights", "Quantitative Trading", "Data Analysis Techniques", "Machine Learning Projects", "University of Waterloo", "Finance and AI", "Autonomous Systems", "Weekly Professional Updates"]
+	},	
 
-	{
-		page: "articles",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
+    {
+        page: "projects",
+        description: 
+            "Explore my projects that range from autonomous delivery robots to optimizing mechanical systems. Each project showcases my skills in software engineering, machine learning, and data analysis.",
+        keywords: ["Mechatronics Projects", "Software Projects", "Machine Learning Projects", "Joey Maillette", "joeymaillette.com"],
+    },
 
-	{
-		page: "projects",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
-
-	{
-		page: "contact",
-		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
+    {
+        page: "contact",
+        description: 
+            "Interested in collaboration or have a challenging problem to solve? Reach out to discuss setting up a meeting.",
+        keywords: ["Contact", "Collaboration", "Software Engineering", "Machine Learning", "Joey Maillette", "joeymaillette.com"],
+    }
 ];
 
 export default SEO;

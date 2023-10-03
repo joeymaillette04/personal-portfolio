@@ -39,21 +39,17 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+						Showcase of Technical Expertise: My Portfolio of Projects
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+						Welcome to the hub of my ingenuity—a collection of projects that encapsulate my
+						 journey through the worlds of software engineering, data analysis, machine learning,
+						  and more. This portfolio serves as a testament to my commitment to continual learning,
+						   problem-solving, and pushing the boundaries of what technology can achieve.
+						    Each project reveals a facet of my skills, from data structures to algorithmic
+							 design, all the way to cutting-edge AI implementations. Scroll down to delve
+							  into the technical complexities and the innovative solutions I've developed.
 						</div>
 
 						<div className="projects-list">

@@ -1,16 +1,12 @@
-import React from "react";
-
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "October 2, 2023",
+		title: "Exciting Milestone: Portfolio Web App Now Live!",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"This week marks an exciting moment as I've successfully deployed my portfolio web application. The platform serves as a comprehensive showcase of my skills in software engineering, machine learning, and data analysis. From autonomous bots to data-driven financial models, you can get a glimpse of various projects I've been part of. Stay tuned as I continually update it with more of my latest work.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"React Apps",
+			"Personal Portfolio",
 		],
 		style: `
 				.article-content {
@@ -24,42 +20,36 @@ function article_1() {
 					outline: 2px solid red;
 				}
 				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+
 	};
 }
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "October 3, 2023",
+		title: "An Upcoming Adventure: Interview with MIT-PITT-RW Design Team",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"I am excited to share that I have an upcoming interview with the MIT-PITT-RW design team, which specializes in autonomous racing. This isn't just an interview; it's an opportunity to engage with a subject that fascinates me deeply. I look forward to potentially being part of a team that pushes the boundaries of autonomous vehicles and racing technology. Stay tuned for updates!",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"React Apps",
+			"Personal Portfolio",
 		],
-		body: (
-			<React.Fragment>
-				<h1>Content of article 2</h1>
-			</React.Fragment>
-		),
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 	};
 }
 
-const myArticles = [article_1, article_2];
+// list in order of newest to oldest
+const myArticles = [article_2, article_1];
 
 export default myArticles;
