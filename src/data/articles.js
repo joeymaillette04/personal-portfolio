@@ -49,7 +49,34 @@ function article_2() {
 	};
 }
 
+function article_3() {
+	return {
+		date: "October 18, 2023",
+		title: "New GitHub Projects Alert: DSA Implementations & VHDL-based Adder Modules!",
+		description:
+		"The first project encompasses a meticulously curated collection of my Data Structures and Algorithms (DSA) implementations. From basic sorting algorithms to intricate data structures, this repository is a testament to my dedication and proficiency in the foundational concepts of computer science. The second project is particularly exciting for those interested in hardware description and digital logic design. It features the implementation of a half-adder, full-adder, and a 4-bit adder using VHDL.",
+		keywords: [
+			"Data Strcutures & Algorithms",
+			"Algorithms",,
+			"DSA",
+			"VHDL",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+	};
+}
+
 // list in order of newest to oldest
-const myArticles = [article_2, article_1];
+const myArticles = [article_3, article_2, article_1];
 
 export default myArticles;

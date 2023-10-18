@@ -64,6 +64,21 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/joeymaillette04/ToyotaCV",
+		},
+
+		{
+			title: "Data Structures & Algorithms Implementations",
+			description: "A comprehensive collection of diverse data structures and algorithms implemented primarily in C++, with testing files for validation.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
+			linkText: "View Project",
+			link: "https://github.com/joeymaillette04/DS-Algo-Collection",
+		},
+		{
+			title: "VHDL-based Adder Modules",
+			description:"VHDL implementations of half-adders, full-adders, and a 4-bit adder for digital circuit design",
+			logo: "../vhdl.jpg",
+			linkText: "View Project",
+			link: "https://github.com/joeymaillette04/VHDL",
 		}
 	],
 };
