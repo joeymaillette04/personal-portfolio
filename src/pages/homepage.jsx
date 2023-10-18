@@ -149,21 +149,23 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
+							<div className="homepage-after-title-title">
+								<div className="homepage-articles">
+									{myArticles.map((article, index) => (
+										<div
+											className="homepage-article"
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+										>
+											<Article
+												key={(index + 1).toString()}
+												date={article().date}
+												title={article().title}
+												description={article().description}
+												link={"/article/" + (index + 1)}
+											/>
+										</div>
+									))}
+								</div>
 							</div>
 
 							<div className="homepage-works">

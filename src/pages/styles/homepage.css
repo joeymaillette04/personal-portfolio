@@ -81,6 +81,10 @@
 	flex-basis: 900px;
 	padding-top: 30px;
 	margin-left: -30px;
+	margin-right: 30px;
+	height: 500px; 
+    overflow-y: auto;
+	scrollbar-width: none;
 }
 
 .homepage-article {
@@ -91,6 +95,12 @@
 	flex-basis: 600px;
 	padding-top: 30px;
 }
+
+.homepage-articles::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
