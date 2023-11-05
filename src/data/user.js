@@ -31,12 +31,12 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Electric F1 Car: Waterloo Formula Electric",
+			title: "MIT-PITT-RW: Indy Autonomous Challenge",
 			description:
-				"Collaborated on the official UW FSAE team, by improving car embedded systems' performance and reliability through code optimization and secure communication protocols.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
+			"Driving software innovation on MIT-PITT-RW's Behavior team, creating sophisticated path planning and control algorithms for the Indy Autonomous Challenge's $1.5M prize pursuit.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://www.uwfsae.ca/",
+			link: "https://www.mitpittrw.com/",
 		},
 
 		{
@@ -46,6 +46,15 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/joeymaillette04/MinTorqueScript",
+		},
+		
+		{
+			title: "Electric F1 Car: Waterloo Formula Electric",
+			description:
+				"Collaborated on the official UW FSAE team, by improving car embedded systems' performance and reliability through code optimization and secure communication protocols.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
+			linkText: "View Project",
+			link: "https://www.uwfsae.ca/",
 		},
 
 		{
@@ -73,13 +82,15 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/joeymaillette04/DS-Algo-Collection",
 		},
-		{
-			title: "VHDL-based Adder Modules",
-			description:"VHDL implementations of half-adders, full-adders, and a 4-bit adder for digital circuit design",
-			logo: "../vhdl.jpg",
-			linkText: "View Project",
-			link: "https://github.com/joeymaillette04/VHDL",
-		}
+
+		// filler
+		// {
+		// 	title: "VHDL-based Adder Modules",
+		// 	description:"VHDL implementations of half-adders, full-adders, and a 4-bit adder for digital circuit design",
+		// 	logo: "../vhdl.jpg",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com/joeymaillette04/VHDL",
+		// }
 	],
 };
 

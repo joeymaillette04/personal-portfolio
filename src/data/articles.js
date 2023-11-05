@@ -76,7 +76,39 @@ function article_3() {
 	};
 }
 
+function article_4() {
+	return {
+		date: "November 4, 2023",
+		title: "Engineering the Future of Racing: My New Chapter with MIT-PITT-RW!",
+		description:
+		"With great enthusiasm, I step into a leading-edge role with the MIT-PITT-RW autonomous racing team for the Indy Autonomous Challenge with prizes up to 1.5 Million USD. As part of the behaviour software team, my objective is to enhance the path planning and control strategies of our autonomous racing car. The joint venture with MIT, PITT, RIT, and UWaterloo presents an exceptional opportunity to merge analytical problem-solving with real-world applications in a field that is defining the cutting edge of transportation technology.",
+		keywords: [
+			"FSAE",
+			"IAC",,
+			"Autonomous Cars",
+			"Autonomous Vehicles",
+			"Autonomous Racing",
+			"Software Design",
+			"Software Engineering",
+			"Path Planning",
+			"Control Systems",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+	};
+}
+
 // list in order of newest to oldest
-const myArticles = [article_3, article_2, article_1];
+const myArticles = [article_4, article_3, article_2, article_1];
 
 export default myArticles;
